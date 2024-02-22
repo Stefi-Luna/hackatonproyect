@@ -9,6 +9,8 @@ import LaptopsView from './Views/LaptopsView.jsx'
 import ConsoleView  from './Views/ConsoleView.jsx';
 import AuricularesView from './Views/AuricularesView.jsx';
 import Footer from './components/Footer/Footer.jsx';
+import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
+
 const App = () => {
   return (
     <Router>

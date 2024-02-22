@@ -1,10 +1,11 @@
-
+import DynamicCarousel from '../components/Slider/Carousel';
 
 const HomeView = () => {
     return (
+      <main>
       <div>
-     
-      </div>
+     <DynamicCarousel/>
+      </div></main>
     );
   };
   
