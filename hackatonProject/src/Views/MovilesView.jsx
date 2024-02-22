@@ -3,10 +3,9 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import CardGroup from 'react-bootstrap/CardGroup';
 
-
-const ConsoleView = () => {
+const MovilesView = () => {
   return (
-   <div className='m-5 mb-3'>
+    <div className='m-5 mb-3'>
 
     <CardGroup className="g-5">
       <Card>
@@ -71,4 +70,4 @@ const ConsoleView = () => {
   )
 }
 
-export default ConsoleView
+export default MovilesView;

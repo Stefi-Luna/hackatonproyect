@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import logo from '../../../src/assets/images/Logo.png';
+import logo from '../../../src/assets/image/Logo.png';
 function NavBar() {
   return (
     <Navbar expand="lg" id="navbar" className="navbar border-bottom border-body" data-bs-theme="dark" style={{ backgroundColor: '#000' }}>
