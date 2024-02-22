@@ -10,15 +10,15 @@ const ConsoleView = () => {
 
     <CardGroup className="g-5">
       <Card>
-        <Card.Img variant="top" src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg" />
+        <Card.Img variant="top" src="https://img.pccomponentes.com/articles/32/323078/1684-microsoft-xbox-series-x-1tb.jpg" />
         <Card.Body>
-          <Card.Title>Iphone 15 Pro Max</Card.Title>
+          <Card.Title>Microsoft Xbox Series X 1TB Negra</Card.Title>
           <Card.Text>
-          Pantalla: Super Retina XDR OLED de 6,7 pulgadas.
-          Chip: A17 Pro con CPU y GPU mejoradas.
-          Cámara: Sistema Pro con lentes de alta calidad.
-          Dimensiones: Ancho: 7,67 cm, Alto: 15,99 cm, Grosor: 0,83 cm.
-          Peso: 221 g.
+          CPU. CPU Zen 2 personaliza de 8 núcleos a 3,8 GHz (3,66 GHz con SMT)
+          GPU. GPU de 12 TERAFLOPS, 52 CU a 1,825 GHz con RDNA 2 personalizada.
+          Tamaño de troquel SOC. 360,45 mm.
+          Proceso. Mejorado de 7 nm.
+          Memoria. GDDR6 de 16 GB con bus de 320 bits de ancho.
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
@@ -29,21 +29,22 @@ const ConsoleView = () => {
       </Card>
 
       <Card>
-        <Card.Img variant="top" src="https://images.samsung.com/es/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titanium-green-back-mo.jpg?imbypass=true"/>
+        <Card.Img variant="top" src="https://img.pccomponentes.com/articles/1080/10801089/2286-sony-playstation-5-review.jpg"/>
         <Card.Body>
-          <Card.Title>Samsung S24 Ultra</Card.Title>
+          <Card.Title>Sony PlayStation 5 Slim</Card.Title>
           <Card.Text>
-            Pantalla: Dynamic LTPO AMOLED 2X de 6,8 pulgadas.
-            Chip: Snapdragon 8 Gen 3 con CPU de 8 núcleos.
-            Cámara: Principal de 200 MP, periscopio telefoto de 50 MP, telefoto de 10 MP, ultrawide de 12 MP.
-            Dimensiones: 162,3 x 79 x 8,6 mm.
-            Peso: 232 g o 233 g.
+            Diseño compacto y ligero.
+            Almacenamiento SSD de 1TB.
+            Tecnología de Audio 3D.
+            Retroalimentación Háptica.
+            Gatillos Adaptativos.
+            Incluye ASTRO'S Playroom
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
         <ListGroup.Item>Alta Gama</ListGroup.Item>
         <ListGroup.Item>Stock: 5</ListGroup.Item>
-        <ListGroup.Item>€1579</ListGroup.Item>
+        <ListGroup.Item>€620</ListGroup.Item>
       </ListGroup>
       </Card>
 

@@ -9,7 +9,7 @@ const MovilesView = () => {
 
     <CardGroup className="g-5">
       <Card>
-        <Card.Img variant="top" src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg" />
+        <Card.Img variant="top" src="https://img.pccomponentes.com/articles/1077/10777839/140-apple-iphone-15-pro-128gb-titanio-natural-libre.jpg" />
         <Card.Body>
           <Card.Title>Iphone 15 Pro Max</Card.Title>
           <Card.Text>
@@ -28,7 +28,7 @@ const MovilesView = () => {
       </Card>
 
       <Card>
-        <Card.Img variant="top" src="https://images.samsung.com/es/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titanium-green-back-mo.jpg?imbypass=true"/>
+        <Card.Img variant="top" src="https://img.pccomponentes.com/articles/1080/10805957/1748-samsung-galaxy-s24-ultra-12-256gb-amarillo-titanium-libre.jpg"/>
         <Card.Body>
           <Card.Title>Samsung S24 Ultra</Card.Title>
           <Card.Text>
@@ -47,7 +47,7 @@ const MovilesView = () => {
       </Card>
 
       <Card>
-        <Card.Img variant="top" src="https://gizchina.es/wp-content/uploads/2024/02/XiaoU.jpg" />
+        <Card.Img variant="top" src="https://elchapuzasinformatico.com/wp-content/uploads/2024/02/Xiaomi-14-Ultra.jpg" />
         <Card.Body>
           <Card.Title>Xiaomi 14 Ultra</Card.Title>
           <Card.Text>

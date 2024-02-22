@@ -10,53 +10,53 @@ const LaptopsView = () => {
 
     <CardGroup className="g-5">
       <Card>
-        <Card.Img variant="top" src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg" />
+        <Card.Img variant="top" src="https://img.pccomponentes.com/articles/1081/10811718/1148-asus-rog-strix-g16-g614jvr-n4003-intel-core-i9-14900hx-32gb-1tb-ssd-rtx-4060-16.jpg" />
         <Card.Body>
-          <Card.Title>Iphone 15 Pro Max</Card.Title>
+          <Card.Title>ASUS ROG Strix G16</Card.Title>
           <Card.Text>
-          Pantalla: Super Retina XDR OLED de 6,7 pulgadas.
-          Chip: A17 Pro con CPU y GPU mejoradas.
-          Cámara: Sistema Pro con lentes de alta calidad.
-          Dimensiones: Ancho: 7,67 cm, Alto: 15,99 cm, Grosor: 0,83 cm.
-          Peso: 221 g.
+          Procesador: Intel® Core™ i9 14900HX.
+          GPU NVIDIA® GeForce RTX™ 4080.
+          Pantalla: Nebula Display 2.5K de 240 Hz.
+          Batería de 90 Wh.
+          Memoria interna: 32 GB.
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
         <ListGroup.Item>Alta Gama</ListGroup.Item>
         <ListGroup.Item>Stock: 5</ListGroup.Item>
-        <ListGroup.Item>€1600</ListGroup.Item>
+        <ListGroup.Item>€1569</ListGroup.Item>
       </ListGroup>
       </Card>
 
       <Card>
-        <Card.Img variant="top" src="https://images.samsung.com/es/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titanium-green-back-mo.jpg?imbypass=true"/>
+        <Card.Img variant="top" src="https://img.pccomponentes.com/articles/1079/10798401/13-apple-macbook-pro-apple-m3-pro-11-nucleos-18gb-512gb-ssd-gpu-14-nucleos-14-plata-foto.jpg"/>
         <Card.Body>
-          <Card.Title>Samsung S24 Ultra</Card.Title>
+          <Card.Title>Apple Macbook Pro Apple M3</Card.Title>
           <Card.Text>
-            Pantalla: Dynamic LTPO AMOLED 2X de 6,8 pulgadas.
-            Chip: Snapdragon 8 Gen 3 con CPU de 8 núcleos.
-            Cámara: Principal de 200 MP, periscopio telefoto de 50 MP, telefoto de 10 MP, ultrawide de 12 MP.
-            Dimensiones: 162,3 x 79 x 8,6 mm.
-            Peso: 232 g o 233 g.
+            antalla Liquid Retina XDR de 14,2 pulgadas en diagonal;1 resolución nativa de 3.024 por 1.964 a 254 píxeles por pulgada.
+            CPU de 11 núcleos.
+            Batería de polímeros de litio de 70 vatios.
+            18 GB de memoria unificada.
+            Magic Keyboard retroiluminado.
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
         <ListGroup.Item>Alta Gama</ListGroup.Item>
         <ListGroup.Item>Stock: 5</ListGroup.Item>
-        <ListGroup.Item>€1579</ListGroup.Item>
+        <ListGroup.Item>€2359</ListGroup.Item>
       </ListGroup>
       </Card>
 
       <Card>
-        <Card.Img variant="top" src="https://gizchina.es/wp-content/uploads/2024/02/XiaoU.jpg" />
+        <Card.Img variant="top" src="https://img.pccomponentes.com/articles/1067/10676242/1667-lenovo-legion-pro-5-16irx8-intel-core-i7-13700hx-32gb-1tb-ssd-rtx-4060-16-review.jpg" />
         <Card.Body>
-          <Card.Title>Xiaomi 14 Ultra</Card.Title>
+          <Card.Title>Lenovo Legion Pro 5 16IRX8</Card.Title>
           <Card.Text>
-            Pantalla: Dynamic LTPO AMOLED 2X de 6,8 pulgadas.
-            Chip: Snapdragon 8 Gen 3 con CPU de 8 núcleos.
-            Cámara: Principal de 200 MP, periscopio telefoto de 50 MP, telefoto de 10 MP, ultrawide de 12 MP.
-            Dimensiones: 162,3 x 79 x 8,6 mm.
-            Peso: 232 g o 233 g.
+            Procesadores Intel® Core™ de 13.a generación y la tarjeta gráfica NVIDIA® GeForce RTX™.
+            Memoria RAM 2x 16GB SO-DIMM DDR5-4800.
+            Pantalla 16" WQXGA IPS 500nits Anti-glare, 100% sRGB, 240Hz, DisplayHDR™ 400, Dolby® Vision™, G-SYNC®, Low Blue Light, High Gaming Performance
+            High Definition (HD) Audio, Realtek® ALC3306 codec.
+            Teclado 4-Zone RGB Backlit, Spanish.
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
