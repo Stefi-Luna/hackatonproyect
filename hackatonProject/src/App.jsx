@@ -3,12 +3,11 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomeView from './Views/HomeView.jsx';
 import NavBar from './components/Navbar/Navbar';
-import PhoneView  from './Views/PhoneView.jsx';
-import TabletView  from './Views/TabletView.jsx';
-import ComputerView  from './Views/ComputerView.jsx';
+import MovilesView from './Views/MovilesView.jsx'
+import TabletsView from './Views/TabletsView.jsx';;
+import LaptopsView from './Views/LaptopsView.jsx'
 import ConsoleView  from './Views/ConsoleView.jsx';
-import HeadView from './Views/HeadView.jsx';
-import TelevisoresView from './Views/TelevisoresView.jsx';
+import AuricularesView from './Views/AuricularesView.jsx';
 import Footer from './components/Footer/Footer.jsx';
 const App = () => {
   return (
@@ -16,12 +15,11 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomeView />} />
-        <Route path="/phone" element={<PhoneView />} />
-        <Route path="/tablet" element={<TabletView />} />
-        <Route path="/pc" element={<ComputerView />} />
+        <Route path="/phone" element={<MovilesView />} />
+        <Route path="/tablet" element={<TabletsView />} />
+        <Route path="/pc" element={<LaptopsView />} />
         <Route path="/console"element={<ConsoleView />} />
-        <Route path="/head" element={<HeadView />} />
-        <Route path="/tv" element={<TelevisoresView />} />
+        <Route path="/head" element={<AuricularesView />} />
       </Routes>
       <Footer/>
     </Router>

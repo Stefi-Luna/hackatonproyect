@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 
-const ConsoleView = () => {
+const MovilesView = () => {
   return (
     <div className='m-5 mb-3'>
 
@@ -40,4 +40,4 @@ const ConsoleView = () => {
   )
 }
 
-export default ConsoleView
+export default MovilesView;

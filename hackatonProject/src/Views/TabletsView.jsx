@@ -4,12 +4,11 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-
-const ConsoleView = () => {
+const TabletsView = () => {
   return (
     <div className='m-5 mb-3'>
 
-        <h1>Nuestras laptops</h1>
+        <h1>Nuestras tablets</h1>
       <Row xs={1} md={3} className="g-5">
       {Array.from({ length: 6 }).map((_, idx) => (
         <Col key={idx}>
@@ -40,4 +39,5 @@ const ConsoleView = () => {
   )
 }
 
-export default ConsoleView
+export default TabletsView;
+  
