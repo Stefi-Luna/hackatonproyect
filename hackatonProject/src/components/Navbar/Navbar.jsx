@@ -13,12 +13,11 @@ function NavBar() {
       <Nav className="ms-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <NavDropdown title="Categorias" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/phone">Telefonos</NavDropdown.Item>
+          <NavDropdown.Item href="/phone">Móviles</NavDropdown.Item>
           <NavDropdown.Item href="/tablet">Tablet</NavDropdown.Item>
-          <NavDropdown.Item href="/pc">ordenador</NavDropdown.Item>
+          <NavDropdown.Item href="/pc">Laptops</NavDropdown.Item>
           <NavDropdown.Item href="/console">Consolas</NavDropdown.Item>
-          <NavDropdown.Item href="/head">Cascos</NavDropdown.Item>
-          <NavDropdown.Item href="/tv">Televisores</NavDropdown.Item>
+          <NavDropdown.Item href="/head">Auriculares</NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/AboutMe">Sobre Mi</Nav.Link>
       </Nav>

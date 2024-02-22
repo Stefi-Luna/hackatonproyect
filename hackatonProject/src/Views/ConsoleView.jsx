@@ -53,11 +53,11 @@ const ConsoleView = () => {
         <Card.Body>
           <Card.Title>Xiaomi 14 Ultra</Card.Title>
           <Card.Text>
-            Pantalla: Dynamic LTPO AMOLED 2X de 6,8 pulgadas.
-            Chip: Snapdragon 8 Gen 3 con CPU de 8 núcleos.
-            Cámara: Principal de 200 MP, periscopio telefoto de 50 MP, telefoto de 10 MP, ultrawide de 12 MP.
-            Dimensiones: 162,3 x 79 x 8,6 mm.
-            Peso: 232 g o 233 g.
+            Plataforma: Nintendo Switch.
+            Modelo del procesador: NVIDIA Custom Tegra.
+            Tecnología de control para juegos: Analógico/Digital.
+            Diagonal de la pantalla: 17,8 cm (7").
+            Conector USB: USB Tipo C.
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
