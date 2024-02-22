@@ -10,6 +10,8 @@ import ConsoleView  from './Views/ConsoleView.jsx';
 import HeadView from './Views/HeadView.jsx';
 import TelevisoresView from './Views/TelevisoresView.jsx';
 import Footer from './components/Footer/Footer.jsx';
+import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
+
 const App = () => {
   return (
     <Router>

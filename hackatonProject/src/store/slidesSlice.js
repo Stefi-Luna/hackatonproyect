@@ -1,5 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit';
-import rootReducer from './reducers';
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   slides: [
@@ -43,20 +42,19 @@ const initialState = {
   slideIndex: 0
 };
 
-const slidesReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case 'NEXT':
-      return { ...state, slideIndex: (state.slideIndex + 1) % state.slides.length };
-    case 'PREV':
-      return { ...state, slideIndex: (state.slideIndex - 1 + state.slides.length) % state.slides.length };
-    default:
-      return state;
+const slidesSlice = createSlice({
+  name: 'slides',
+  initialState,
+  reducers: {
+    nextSlide: state => {
+      state.slideIndex = (state.slideIndex + 1) % state.slides.length;
+    },
+    prevSlide: state => {
+      state.slideIndex = (state.slideIndex - 1 + state.slides.length) % state.slides.length;
+    }
   }
-};
-
-const store = configureStore({
-  reducer: rootReducer,
 });
 
-export default store;
+export const { nextSlide, prevSlide } = slidesSlice.actions;
+export default slidesSlice.reducer;
 
