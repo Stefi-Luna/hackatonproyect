@@ -19,7 +19,7 @@ function NavBar() {
           <NavDropdown.Item href="/console">Consolas</NavDropdown.Item>
           <NavDropdown.Item href="/head">Auriculares</NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/AboutMe">Sobre Mi</Nav.Link>
+        <Nav.Link href="/AboutMe">Contacto</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
