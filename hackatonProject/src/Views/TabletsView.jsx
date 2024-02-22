@@ -8,12 +8,12 @@ const TabletsView = () => {
   return (
     <div className='m-5 mb-3'>
 
-        <h1>Nuestras tablets</h1>
+        <h1>¡Nuestras tablets!</h1>
       <Row xs={1} md={3} className="g-5">
       {Array.from({ length: 6 }).map((_, idx) => (
         <Col key={idx}>
-          <Card style={{ width: '28rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+          <Card style={{ width: '28rem' }} className='card.container'>
+      <Card.Img variant="top" src="" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>

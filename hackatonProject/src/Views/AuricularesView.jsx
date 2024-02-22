@@ -9,7 +9,7 @@ const AuricularesView = () => {
   return (
     <div className='m-5 mb-3'>
 
-        <h1>Nuestras laptops</h1>
+        <h1>¡Nuestros auriculares!</h1>
       <Row xs={1} md={3} className="g-5">
       {Array.from({ length: 6 }).map((_, idx) => (
         <Col key={idx}>
