@@ -4,37 +4,32 @@ const initialState = {
   slides: [
     {
       title: "Mobile Phone",
-      image: "../../../src/assets/images/phone.jpg",
+      image: "./src/assets/image/phone.jpg",
       description: "A mobile phone description",
       link: "/phone"
     },
     {
       title: "Console",
-      image: "../../../src/assets/images/xbox.jpg",
+      image: "./src/assets/image/xbox.jpg",
       description: "A console description",
       link: "/console"
     },
-    {
-      title: "Televisores",
-      image: "../../../src/assets/images/television.jpg",
-      description: "A television description",
-      link: "/televisores"
-    },
+  
     {
       title: "Ordenadores",
-      image: "../../../src/assets/images/ordenador.jpg",
+      image: "./src/assets/image/ordenador.jpg",
       description: "A computer description",
       link: "/ordenadores"
     },
     {
       title: "Tablet",
-      image: "../../../src/assets/images/tablet.jpg",
+      image: "../src/assets/image/tablet.jpg",
       description: "A tablet description",
       link: "/Tablet"
     },
     {
       title: "HeadPhone",
-      image: "../../../src/assets/images/headphone.jpg",
+      image: "./src/assets/imag/headphone.jpg",
       description: "A headphone description",
       link: "/head"
     }
