@@ -24,7 +24,7 @@ const ConsoleView = () => {
         <ListGroup className="list-group-flush">
         <ListGroup.Item>Alta Gama</ListGroup.Item>
         <ListGroup.Item>Stock: 5</ListGroup.Item>
-        <ListGroup.Item>€1600</ListGroup.Item>
+        <ListGroup.Item>€629.95</ListGroup.Item>
       </ListGroup>
       </Card>
 
@@ -49,9 +49,9 @@ const ConsoleView = () => {
       </Card>
 
       <Card>
-        <Card.Img variant="top" src="https://gizchina.es/wp-content/uploads/2024/02/XiaoU.jpg" />
+        <Card.Img variant="top" src="https://img.pccomponentes.com/articles/43/432881/1945-nintendo-switch-oled-blanca.jpg" />
         <Card.Body>
-          <Card.Title>Xiaomi 14 Ultra</Card.Title>
+          <Card.Title>Nintendo Switch OLED Blanca</Card.Title>
           <Card.Text>
             Plataforma: Nintendo Switch.
             Modelo del procesador: NVIDIA Custom Tegra.
@@ -63,7 +63,7 @@ const ConsoleView = () => {
         <ListGroup className="list-group-flush">
         <ListGroup.Item>Alta Gama</ListGroup.Item>
         <ListGroup.Item>Stock: 5</ListGroup.Item>
-        <ListGroup.Item>€1400</ListGroup.Item>
+        <ListGroup.Item>€350</ListGroup.Item>
       </ListGroup>
       </Card>
     </CardGroup>
